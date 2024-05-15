@@ -48,7 +48,7 @@ jobs:
 
     - name: Build with Gradle
       run: |
-        ./gradlew build
+        gradlew build
 
     - name: Build APK with Flutter
       run: |
